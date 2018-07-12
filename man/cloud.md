@@ -21,6 +21,7 @@ Create RSA key pair for SSH conection
  Mainly:
 
   > cd ~/.ssh/
+  
   > ssh-keygen 
 
  It's safer to add passphrase, but you will have to type it everytime...
