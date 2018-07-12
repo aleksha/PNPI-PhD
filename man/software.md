@@ -35,7 +35,11 @@ Software installation:
     > sudo make
 
   3.4 Add ROOT paths to .bashrc
-
+  
+        export ROOTSYS=/usr/local/root
+        export PATH=$ROOTSYS/bin:/usr/local/bin:./$PATH
+        export LD_LIBRARY_PATH=$ROOTSYS/lib:/usr/lib/mysql:$LD_LIBRARY_PATH
+        
  4. GEANT4 installation
 
   4.1 Download GEANT4 to local machine http://geant4.web.cern.ch/geant4/support/download.shtml
