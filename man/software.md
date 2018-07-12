@@ -8,7 +8,6 @@ Software installation:
  2. Update software
  
     > sudo apt-get update
-    
     > sudo apt-get upgrade
 
  3. CERN ROOT installtion
@@ -22,6 +21,7 @@ Software installation:
     > sudo apt-get install gfortran libssl-dev libpcre3-dev xlibmesa-glu-dev libglew1.5-dev libftgl-dev libmysqlclient-dev libfftw3-dev libcfitsio-dev graphviz-dev libavahi-compat-libdnssd-dev libldap2-dev python-dev libxml2-dev libkrb5-dev libgsl0-dev libqt4-dev
 
   3.3 Compile ROOT
+  
     > sudo cp root_v5.34.36.source.tar.gz /usr/local/
     
     > cd /usr/local/
@@ -42,7 +42,7 @@ Software installation:
  
   **at local machine**
   
-    > scp -i ..\.ssh\id_rsa_npwd geant4.10.04.p02.tar.gz root@95.213.235.221:/home/user/Sim/
+    > scp -i ..\.ssh\YOURKEY geant4.10.04.p02.tar.gz root@IPADRESS:/home/user/Sim/
     
   4.2 Stack of commands
 
