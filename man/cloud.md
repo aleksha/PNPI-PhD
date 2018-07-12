@@ -1,5 +1,5 @@
-Using cloud infrastructure
-==========================
+Using cloud infrastructure by non-PNPI users
+============================================
 
 Instread of using virtual machines, which share limitations of the existing PCs 
 and have some difficulties with installation of the operation systems,
