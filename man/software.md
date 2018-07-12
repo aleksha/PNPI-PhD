@@ -1,9 +1,7 @@
-Software installation:
-======================
+Software installation
+=====================
 
-(Old version, have to be updated)
-
- 1. Install Xubuntu 16.04 LTS
+ 1. Install (gat root access to) Xubuntu 16.04 LTS
 
  2. Update software
  
@@ -41,6 +39,7 @@ Software installation:
         export PATH=$ROOTSYS/bin:/usr/local/bin:./$PATH
         export LD_LIBRARY_PATH=$ROOTSYS/lib:/usr/lib/mysql:$LD_LIBRARY_PATH
         
+
  4. GEANT4 installation
 
   4.1 Download GEANT4 to local machine http://geant4.web.cern.ch/geant4/support/download.shtml
