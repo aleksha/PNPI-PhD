@@ -38,24 +38,27 @@ Software installation:
 
  4. GEANT4 installation
 
-  4.1 Download GEANT4 http://geant4.web.cern.ch/geant4/support/download.shtml
-  (follow userguide)
-
+  4.1 Download GEANT4 to local machine http://geant4.web.cern.ch/geant4/support/download.shtml
+ 
+  **at local machine**
+  
+    > scp -i ..\.ssh\id_rsa_npwd geant4.10.04.p02.tar.gz root@95.213.235.221:/home/user/Sim/
+    
   4.2 Stack of commands
 
     > sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
 
     > sudo apt-get install libmotif-dev
 
-    > mkdir ~/Sim/
+    > cd ~/Sim/
 
-    > cp geant4.10.03.p02.tar.gz ~/Sim/
+    > tar zxvf geant4.10.04.p02.tar.gz
 
-    > mkdir ~/Sim/geant4.10.03.p02-build
+    > mkdir ~/Sim/geant4.10.04.p02-build
 
-    > cd ~/Sim/geant4.10.03.p02-build
+    > cd ~/Sim/geant4.10.04.p02-build
 
-    > cmake -DCMAKE_INSTALL_PREFIX=/home/adzyuba/Sim/geant4.10.03.p02-install /home/adzyuba/Sim/geant4.10.03.p02
+    > cmake -DCMAKE_INSTALL_PREFIX=/home/user/Sim/geant4.10.04.p02-install /home/user/Sim/geant4.10.04.p02
 
     > cmake -DGEANT4_INSTALL_DATA=ON .
 
