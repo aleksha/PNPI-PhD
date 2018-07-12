@@ -8,6 +8,7 @@ Software installation:
  2. Update software
  
     > sudo apt-get update
+    
     > sudo apt-get upgrade
 
  3. CERN ROOT installtion
