@@ -1,4 +1,5 @@
-#Using cloud infrastructure
+Using cloud infrastructure
+==========================
 
 Instread of using virtual machines, which share limitations of the existing PCs 
 and have some difficulties with installation of the operation systems,
