@@ -22,7 +22,12 @@ To access commad line:
   * Account name
   * IP adress
   * SSH RSA key-pair
+  
 For further details see **_man/pnpi-phd.md_**.
  
- To start with on external cloud infrastructure see: **_man/cloud.md_**
- To to install software read: **_man/software.md_**
+For non-PNPI users
+------------------
+
+To start with on external cloud infrastructure see: **_man/cloud.md_**
+
+To to install software read: **_man/software.md_**
