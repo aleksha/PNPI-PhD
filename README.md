@@ -7,7 +7,7 @@ Tested on https://vscale.io cloud infrustructure with the
 Software stack:
  * Ubuntu 16.04 LTS
  * ROOT 5.34.38 (1 hour to compile)
- * Geant 4.10.4
+ * Geant 4.10.4 (1.5 hours to compile)
 
 To access commad line:
  * **Linux** -- use any terminal
