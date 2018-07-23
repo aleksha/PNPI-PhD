@@ -56,14 +56,10 @@ Setup server at vscale enviorement:
    
    > apt upgrade
    
-   > useradd user sudo
+   > useradd -m user
    
-   > mkdir /home/user/
-   
-   > cd /home/
-   
-   > chown user user
-   
+   > adduser user sudo
+     
    > su user
  
  
