@@ -53,11 +53,17 @@ Setup server at vscale enviorement:
  4. Update software, create user, switch to it
  
    > apt update
+   
    > apt upgrade
+   
    > useradd user sudo
+   
    > mkdir /home/user/
+   
    > cd /home/
+   
    > chown user user
+   
    > su user
  
  
