@@ -58,6 +58,8 @@ Setup server at vscale enviorement:
    
    > useradd -m user
    
+   > passwd user
+   
    > adduser user sudo
      
    > su user
