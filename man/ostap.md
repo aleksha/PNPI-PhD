@@ -171,3 +171,4 @@ pico histo.py
 sudo cp TEMP.png /var/www/html/
 ```
 
+Open in browser **http://IP_ADDRESS/TEMP.png**
