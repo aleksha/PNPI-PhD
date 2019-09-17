@@ -61,7 +61,7 @@ adduser user sudo
 su user
 ```
  
-Binaries for the Ubunto 18.04
+Binaries for the Ubuntu 18.04
 =============================
 
 Next packages (with all the dependencieas) are installed a prior
