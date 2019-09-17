@@ -149,6 +149,5 @@ make install
 cd ../install/
 source thisostap.sh
 ```
-Note, that althought **thisostap.sh** is executable, simple call of it
-doesn't work.
+Note, that simple call (**> ./thisostap.sh**) doesn't work.
 
