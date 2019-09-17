@@ -1,12 +1,18 @@
 Using cloud infrastructure by non-PNPI users
 ============================================
 
+To access commad line:
+ * **Linux** -- use any terminal
+ * **Windows** -- http://cmder.net/
+ * **macOS** -- https://www.iterm2.com/ (not tested)
+
 Instread of using virtual machines, which share limitations of the existing PCs 
 and have some difficulties with installation of the operation systems,
 a cloud solution is proposed.
 
 Next provider are tested:
   * https://vscale.io (Russian provider, used as default one [English mode])
+Was tested in past (may be outdated):
   * https://digitalocean.com (had some difficulties with connetion to Russia)
   
 
