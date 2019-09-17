@@ -111,7 +111,7 @@ export PATH=$ROOTSYS/bin:$PATH
 export LD_LIBRARY_PATH=$ROOTSYS/lib/:$LD_LIBRARY_PATH
 ```
 
-How this root has been compiled
+How this ROOT has been compiled
 -------------------------------
 
 The main is to do it with the right CMake flags:
