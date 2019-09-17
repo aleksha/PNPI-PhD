@@ -154,7 +154,21 @@ Note, that simple call (**> ./thisostap.sh**) doesn't work.
 How to view
 ===========
 
-Install **nginx**:
+SimpleHTTPServer with Python
+----------------------------
+
+One can serve from current directory
+
+```bash
+python -m SimpleHTTPServer 8000
+```
+Then try in browser: **http://IP_ADDRESS:8000/TEMP.png**
+
+
+Nginx
+-----
+
+Another option is to install **nginx**:
 
 ```bash
 sudo apt-get install nginx
