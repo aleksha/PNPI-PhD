@@ -151,3 +151,23 @@ source thisostap.sh
 ```
 Note, that simple call (**> ./thisostap.sh**) doesn't work.
 
+How to view
+===========
+
+Install **nginx**:
+
+```bash
+sudo apt-get install nginx
+```
+
+Check that Ubuntu firewall allows HTTP.
+If not, allow it. Copy figure to **/var/www/html/**
+
+```bash
+sudo ufw app list
+sudo ufw allow 'Nginx HTTP'
+systemctl status nginx
+pico histo.py
+sudo cp TEMP.png /var/www/html/
+```
+
