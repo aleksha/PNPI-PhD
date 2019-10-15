@@ -65,7 +65,8 @@ In [8]: help(ROOT.TH1F)
 Value with error object (VE)
 ----------------------------
 
-One of the basic object of _Ostap_ framework is _Value with error (VE)_
+One of the basic object of _Ostap_ framework is _Value with error (VE).
+Uncertainty assumed to be gaussian.
 ```ipython
 In [9]: VE
 Out[9]: ROOT.Ostap.Math.ValueWithError
@@ -88,6 +89,5 @@ In [17]: d
 Out[17]: ( 1 +- 1.41421 )
 ```
 
-
-Basic operation with **VE** could be found in basic _Ostap_ example 
+Basic operation with _VE_ could be found in basic _Ostap_ example 
 **tap/examples/math/math_ex001_functions.py**
