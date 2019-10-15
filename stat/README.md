@@ -65,7 +65,7 @@ In [8]: help(ROOT.TH1F)
 Value with error object (VE)
 ----------------------------
 
-One of the basic object of _Ostap_ framework is _Value with error (VE).
+One of the basic object of _Ostap_ framework is Value with error (_VE_).
 Uncertainty assumed to be gaussian.
 ```ipython
 In [9]: VE
@@ -89,5 +89,32 @@ In [17]: d
 Out[17]: ( 1 +- 1.41421 )
 ```
 
-Basic operation with _VE_ could be found in basic _Ostap_ example 
-**tap/examples/math/math_ex001_functions.py**
+Basic operation with _VE_ could be found in basic _Ostap_ example:
+```bash
+ostap -b $OSTAPDIR/../examples/math/math_ex001_functions.py 
+```
+
+Quite inmortant, but not obvious features (methods):
+----------------------------------------------------
+Background-over-signal ratio B/S estimate from the equation:
+
+      error(S) = 1/sqrt(S) * sqrt ( 1 + B/S).
+
+Valid for Poisson numbers, for which uncertainty is sqrt(S).
+All above is due to the background.
+
+```ipython
+In [1]: help(VE)
+In [2]: n = VE(10000,100**2)
+In [3]: n.b2s()
+Out[3]: ( 1 +- 0 )
+In [4]: m = VE(10000,150**2)
+In [5]: m.b2s()
+Out[5]: ( 1.25 +- 0.03375 )
+```
+
+Calculate the ``effective purity'' ratio using the identity (function
+is not working so far):
+
+      p = S/(S+B) = 1/( 1 + B/S ), 
+ 
