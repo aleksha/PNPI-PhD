@@ -55,8 +55,10 @@ Setup server at vscale enviorement:
 ```bash
 ssh -i/.ssh/id_rsa root@IP_ADDRESS
 ```
+First steps on new machine
+==========================
 
- 4. Update software, create user (with name __user__ , option __-m__ creates home directory), add user to sudoers, switch to it
+Update software, create user (with name __user__ , option __-m__ creates home directory), add user to sudoers, switch to it
  
 ```bash
 apt update
