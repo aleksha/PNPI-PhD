@@ -18,7 +18,7 @@ To access commad line:
  * **Windows** -- http://cmder.net/
  * **macOS** -- https://www.iterm2.com/ (not tested)
  
- PNPI PhD sudents must obtain in the PNPI Department of education:
+ PNPI PhD sudents must obtain in the PNPI Department of education (or from teacher):
   * Account name
   * IP adress
   * SSH RSA key-pair
