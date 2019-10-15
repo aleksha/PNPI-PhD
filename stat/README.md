@@ -118,3 +118,20 @@ is not working so far):
 
       p = S/(S+B) = 1/( 1 + B/S ), 
  
+
+Formating (rounding) according to PDG:
+ - http://pdg.lbl.gov/2010/reviews/rpp2010-rev-rpp-intro.pdf
+ - section 5.3 of doi:10.1088/0954-3899/33/1/001
+        
+ Quote:
+      The basic rule states that if the three highest order digits of the error
+      lie between 100 and 354, we round to two significant digits. If they lie between
+      355 and 949, we round to one significant digit. Finally,
+      if they lie between 950 and 999, we round up to 1000 and keep two significant digits.
+      In all cases, the central value is given with a precision that matches that of the error.
+
+```ipython
+>>> ve  = VE( ...
+>>> vr  = ve.pdg()
+>>> print ' Rounded value with error is  %s ' % vr
+```
