@@ -78,7 +78,7 @@ libssl-dev libpcre3-dev xlibmesa-glu-dev libglew1.5-dev \
 libftgl-dev libmysqlclient-dev libfftw3-dev libcfitsio-dev \
 graphviz-dev libavahi-compat-libdnssd-dev libldap2-dev \
 python-dev libxml2-dev libkrb5-dev libgsl0-dev libqt4-dev \
-doxygen doxygen-gui
+doxygen doxygen-gui ipython ipython-qtconsole 
 ```
 
 Also some packeges are installed via **pip**.
