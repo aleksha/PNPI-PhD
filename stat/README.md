@@ -28,11 +28,11 @@ ostap a.py b.py c.py d.py  file1.root file2.root e.py file3.root
 The script automatically opens **TCanvas** window with a little bit modified recommended LHCb style.
 An option **--no-canvas** prevent of doing this.
 
-To run in a batch regime (execute scripts and exit) use **-b, --batch ** option.
+To run in a batch regime (execute scripts and exit) use **-b, --batch** option.
 
 List of other options can be found using **-h, --help** options.
 
-To exit _Ostap_ use **exit()**, or **quit()**, or **Ctrl+D** follower by **Enter**.
+To exit _Ostap_ use **exit()**, or **quit()**, or **Ctrl+D** followed by **Enter**.
 
 First steps
 -----------
