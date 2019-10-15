@@ -87,6 +87,10 @@ while **standard deviation is used in the output!!**
 In [16]: d = VE(1,2)
 In [17]: d
 Out[17]: ( 1 +- 1.41421 )
+In [18]: d.value()
+Out[18]: 1.0
+In [19]: d.error()
+Out[19]: 1.4142135623730951
 ```
 
 Basic operation with _VE_ could be found in basic _Ostap_ example:
@@ -94,8 +98,8 @@ Basic operation with _VE_ could be found in basic _Ostap_ example:
 ostap -b $OSTAPDIR/../examples/math/math_ex001_functions.py 
 ```
 
-Quite inmortant, but not obvious features (methods):
-----------------------------------------------------
+Quite inportant, but not obviours features (methods):
+-----------------------------------------------------
 Background-over-signal ratio B/S estimate from the equation:
 
       error(S) = 1/sqrt(S) * sqrt ( 1 + B/S).
@@ -134,4 +138,10 @@ Formating (rounding) according to PDG:
 >>> ve  = VE( ...
 >>> vr  = ve.pdg()
 >>> print ' Rounded value with error is  %s ' % vr
+```
+
+Relative uncertainry can be calculated using **prec()** function.
+```ipython
+>>> v = VE(...
+>>> p = v.prec()
 ```
