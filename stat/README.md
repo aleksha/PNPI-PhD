@@ -13,6 +13,8 @@ ostap
 
 The standard call launch IPython and create default canvas (can be called as __canvas__).
 The ROOT decoration is preloaded.
+For exaple next commands create ROOT hystogram, fill it with 2 and 1.9 (it returns bin number;
+remember that in ROOT bin numbering starts from 1), draw, and save into file **temp.png**
 ```ipython
 In [1]: h = ROOT.TH1F("h","h",10,0,10)
 In [2]: h.Fill(2)
