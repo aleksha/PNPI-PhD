@@ -1,6 +1,14 @@
 For PNPI PhD students
 =====================
 
+Current status
+--------------
+
+The linux access is provided by teacher. Details are in mails.
+
+Future plans
+------------
+
 For PhD students from PNPI the cloud infrastructure is provided by
 the PNPI Data Center. The software stack is installed on the provided 
 network computers.
