@@ -10,6 +10,7 @@ git clone https://github.com/aleksha/PNPI-PhD.git
 cd PNPI-PhD/stat/
 ostap
 ```
+To exit __Ostap__ use **exit()**, or **quit()**, or **Ctrl+D** follower by **Enter**.
 
 The standard call launch IPython and create default canvas (can be called as __canvas__).
 The ROOT decoration is preloaded.
@@ -25,5 +26,13 @@ In [5]: h.Draw()
 In [6]: canvas >> "temp.png"
 Out[6]: <ROOT.TCanvas object ("glCanvas") at 0x561613c75f20>
 ```
-
-To exit use **exit()**, or **quit()**, or **Ctrl+D**.
+To see, which ROOT object are available type:
+```ipython
+In [7]: dir(ROOT)
+```
+To see, which methods are available for particular object see help (type **q** to exit help).
+For example:
+```ipython
+In [8]: help(ROOT.TH1F)
+```
+**Note: that there a lot of methods in addition to the standard ROOT one!**
