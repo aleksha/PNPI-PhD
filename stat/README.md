@@ -12,6 +12,9 @@ ostap
 ```
 To exit __Ostap__ use **exit()**, or **quit()**, or **Ctrl+D** follower by **Enter**.
 
+First steps
+-----------
+
 The standard call launch IPython and create default canvas (can be called as __canvas__).
 The ROOT decoration is preloaded.
 For exaple next commands create ROOT hystogram, fill it with 2 and 1.9 (it returns bin number;
@@ -36,3 +39,20 @@ For example:
 In [8]: help(ROOT.TH1F)
 ```
 **Note: that there a lot of methods in addition to the standard ROOT one!**
+
+Value with error object (VE)
+----------------------------
+
+```ipython
+In [9]: VE
+Out[9]: ROOT.Ostap.Math.ValueWithError
+In [10]: help(VE)
+In [11]: a = VE(1,1)
+In [12]: b = VE(10,1)
+In [13]: c = a+b
+In [14]: print(c)
+( 11 +- 1.41421 )
+In [15]: c
+Out[15]: ( 11 +- 1.41421 )
+```
+
