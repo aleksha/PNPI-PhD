@@ -2,15 +2,37 @@ Introduction tutorial
 =====================
 
 Precursors:
- * Ostap software stack installed
+ * _Ostap_ software stack installed
 
-Download the project, go to **stat** directory, start __Ostap__:
+Download the project, go to **stat** directory, start _Ostap_:
 ```bash
 git clone https://github.com/aleksha/PNPI-PhD.git
 cd PNPI-PhD/stat/
 ostap
 ```
-To exit __Ostap__ use **exit()**, or **quit()**, or **Ctrl+D** follower by **Enter**.
+
+Optionally one can specify the list of python files to be executed 
+before appearance of the interactive command prompt: 
+```bash
+ostap a.py b.py
+```
+Note, if there will be a crash during executing of the scripts, when variabels will
+not be avalabe aftewards. In case of success they stand.
+
+The list of optional arguments can include also root-files, in this case the files will 
+be opened and their handlers will be available via local list **root_files**
+```bash
+ostap a.py b.py c.py d.py  file1.root file2.root e.py file3.root 
+```
+
+The script automatically opens **TCanvas** window with a little bit modified recommended LHCb style.
+An option **--no-canvas** prevent of doing this.
+
+To run in a batch regime (execute scripts and exit) use **-b, --batch ** option.
+
+List of other options can be found using **-h, --help** options.
+
+To exit _Ostap_ use **exit()**, or **quit()**, or **Ctrl+D** follower by **Enter**.
 
 First steps
 -----------
@@ -43,6 +65,7 @@ In [8]: help(ROOT.TH1F)
 Value with error object (VE)
 ----------------------------
 
+One of the basic object of _Ostap_ framework is _Value with error (VE)_
 ```ipython
 In [9]: VE
 Out[9]: ROOT.Ostap.Math.ValueWithError
@@ -54,5 +77,17 @@ In [14]: print(c)
 ( 11 +- 1.41421 )
 In [15]: c
 Out[15]: ( 11 +- 1.41421 )
+
+```
+Note that **second parameter for initialisation is variance**,
+while **standard deviation is used in the output!!**
+
+```ipython
+In [16]: d = VE(1,2)
+In [17]: d
+Out[17]: ( 1 +- 1.41421 )
 ```
 
+
+Basic operation with **VE** could be found in basic _Ostap_ example 
+**tap/examples/math/math_ex001_functions.py**
