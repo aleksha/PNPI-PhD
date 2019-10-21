@@ -18,8 +18,18 @@ Install using instructions, and follow:
 Another option is to use **conda**:
  - https://github.com/OstapHEP/ostap/blob/master/README.md#%D1%81onda
 
-Virtual Linux machine:
-----------------------
+Virtual Linux machine
+---------------------
+
+Instructions how to setup it for VirtualBox is kindly provided by
+Vladimir Chulikov:
+ - https://github.com/aleksha/PNPI-PhD/blob/master/man/VirtualBox_Instructions.docx
+
+**Xubuntu 18.04 LTS** also works fine.
+
+Follow this part of guide after setup:
+  - https://github.com/aleksha/PNPI-PhD/blob/master/man/ostap.md#binaries-for-the-ubuntu-1804
+
 
 Docker for Windows and MacOS
 ----------------------------
