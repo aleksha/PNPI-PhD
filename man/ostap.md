@@ -1,73 +1,28 @@
-Using cloud infrastructure by non-PNPI users
-============================================
+Variants of installation
+========================
 
-To access commad line:
- * **Linux** -- use any terminal
- * **Windows** -- http://cmder.net/
- * **macOS** -- https://www.iterm2.com/ (not tested)
+Local Linux machine
+-------------------
+
+
+
+Cloud machine (non-PNPI only)
+------------------------------
 
 Instread of using virtual machines, which share limitations of the existing PCs 
 and have some difficulties with installation of the operation systems,
 a cloud solution is proposed.
 
-Next provider are tested:
-  * https://vscale.io (Russian provider, used as default one [English mode])
-Was tested in past (may be outdated):
-  * https://digitalocean.com (had some difficulties with connetion to Russia)
-  
+Access via command line using _ssh_.
+To access commad line:
+ * **Linux** -- use any terminal
+ * **Windows** -- http://cmder.net/
+ * **macOS** -- https://www.iterm2.com/ (not tested)
 
-Create RSA key pair for SSH conection
---------------------------------------
-
-(one can read https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
- 
-Mainly:
-
-```bash
-cd ~/.ssh/
-ssh-keygen 
-```
-
-It's safer to add passphrase, but you will have to type it everytime...
-To read publich key
- 
-```bash
-cat ~/.ssh/id_rsa.pub
-```
+See instructions:
+ - https://github.com/aleksha/PNPI-PhD/blob/master/man/cloud.md
 
 
-Setup server at vscale enviorement:
------------------------------------
-
- 1. Create an account and put some payment (200 RUB will cover half a month usage)
- 
- 2. Servers -> Create Server:  Choose
-   * Ubuntu 18.04 64bit (as it's LTS)
-   * 400 RUB/month server
-   * Saint-Petersburg location (for PNPI)
-   * Server name (name of server at the pannel)
-   * Host name (name of server on server)
-   * upload SSH public key
-   * Create Server
-   
- 3. After server will have status _Online_ use ssh to login
- 
-```bash
-ssh -i/.ssh/id_rsa root@IP_ADDRESS
-```
-First steps on new machine
-==========================
-
-Update software, create user (with name __user__ , option __-m__ creates home directory), add user to sudoers, switch to it
- 
-```bash
-apt update
-apt upgrade
-useradd -m user
-passwd user
-adduser user sudo
-su user
-```
  
 Binaries for the Ubuntu 18.04
 =============================
