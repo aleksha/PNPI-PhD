@@ -100,6 +100,7 @@ def draw_param(r_fit, w_fit, h_fit, N_BINS, var, W_max, name, XTitle, Prefix, Ty
         lb.SetTextSize(0.04)
 
     w_fit.GetXaxis().SetTitle(XTitle+", "+var_Units)
+    w_fit.GetXaxis().SetTitleSize(0.05)
     w_fit.GetXaxis().SetTitleOffset(0.9)
     w_fit.GetYaxis().SetRangeUser(0.01, W_max)
     w_fit.GetYaxis().SetTitleOffset(0.9)
