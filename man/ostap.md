@@ -4,7 +4,16 @@ Variants of installation
 Local Linux machine
 -------------------
 
+Recommend to use **Ubuntu 18.04 LTS (Long Term Support)** family:
+ * Ubuntu https://ubuntu.com/download
+ * Xubuntu (xfce window manager) https://xubuntu.org/release/18-04/
 
+Install using instructions, and follow:
+  - https://github.com/aleksha/PNPI-PhD/blob/master/man/ostap.md#binaries-for-the-ubuntu-1804
+
+**Note: Nowdays an attempts to install Linux as second operation system aside 
+to the Windows one is tricky buisness, which can destroy Windows installation.
+Strongly reccomend to do it if one 100% sure in his skills!!!**
 
 Cloud machine (non-PNPI only)
 ------------------------------
