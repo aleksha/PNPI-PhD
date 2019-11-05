@@ -14,28 +14,13 @@ Binaries for the Ubuntu 18.04
 
 Next packages (with all the dependencieas) are installed a prior
 ```bash
-sudo apt-get --fix-missing install git dpkg-dev cmake g++ gcc \ 
-binutils libx11-dev libxpm-dev libxft-dev libxext-dev gfortran \
-libssl-dev libpcre3-dev xlibmesa-glu-dev libglew1.5-dev \
-libftgl-dev libmysqlclient-dev libfftw3-dev libcfitsio-dev \
-graphviz-dev libavahi-compat-libdnssd-dev libldap2-dev \
-python-dev libxml2-dev libkrb5-dev libgsl0-dev libqt4-dev \
-doxygen doxygen-gui ipython ipython-qtconsole 
+sudo apt-get --fix-missing install git dpkg-dev cmake g++ gcc binutils libx11-dev libxpm-dev libxft-dev libxext-dev gfortran libssl-dev libpcre3-dev xlibmesa-glu-dev libglew1.5-dev libftgl-dev libmysqlclient-dev libfftw3-dev libcfitsio-dev graphviz-dev libavahi-compat-libdnssd-dev libldap2-dev python-dev libxml2-dev libkrb5-dev libgsl0-dev libqt4-dev doxygen doxygen-gui ipython ipython-qtconsole build-essential python-pip
 ```
 
 Also some packeges are installed via **pip**.
 These are OSTAP dependencies.
 ```bash
-sudo apt-get install python-pip
-pip install future
-pip install configparser
-pip install numpy
-pip install scipy
-pip install pathos
-pip install dill
-pip install multiprocess
-pip install ppt
-pip install terminaltables
+pip install future configparser  numpy scipy pathos dill multiprocess ppt terminaltables
 ```
 
 To be installed (unpacked) for example into **/home/user/Software/root**
