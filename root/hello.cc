@@ -2,7 +2,7 @@
 #include "TCanvas.h"
 #include "TH1F.h"
 #include "TRandom.h"
-
+#include "TApplication.h"
 
 using namespace std;
 
@@ -22,8 +22,9 @@ void hello()
 }
 
 #ifndef __CINT__
-int main()
+int main(int argc, char** argv)
 {
+  TApplication theApp("App",&argc, argv);
   hello();
   test();
   int a;
@@ -35,6 +36,7 @@ int main()
   canv->Print("canv.png");
   cin >> a ;
   canv->Close();
+  theApp.Run();
   return 0;
 }
 #endif

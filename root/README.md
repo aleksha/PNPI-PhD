@@ -12,4 +12,4 @@ See:
 g++ -o hello hello.cc `root-config --cflags --glibs`
 ```
 
-Unfortunatelly, it doesn't draw canvas so far, but store it into png-file.
+Thee program then just stops at **Run()** and one can end the process with ^C.
