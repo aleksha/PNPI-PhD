@@ -1,8 +1,8 @@
 Recepies for CERN ROOT
 ======================
 
-How to compile standalone ROOT programm
----------------------------------------
+How to compile standalone ROOT program
+--------------------------------------
 
 See:
 
@@ -12,3 +12,4 @@ See:
 g++ -o hello hello.cc `root-config --cflags --glibs`
 ```
 
+Unfortunatelly, it doesn't draw canvas so far, but store it into png-file.
