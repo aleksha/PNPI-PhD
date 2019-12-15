@@ -22,16 +22,13 @@ To access commad line:
  * **Windows** -- http://cmder.net/
  * **macOS** -- https://www.iterm2.com/ (not tested)
  
- PNPI PhD sudents must obtain in the PNPI Department of education (or from teacher):
-  * Account name
-  * IP adress
-  * password
-  
-For further details see **_man/pnpi-phd.md_**.
+For further details for PNPI PhD students see **_man/pnpi-phd.md_**.
  
 For non-PNPI users
 ------------------
 
-To start with on external cloud infrastructure see: **_man/cloud.md_**
+To start with Linux on remote server using cloud infrastructure see: **_man/cloud.md_**.
+
+Another option is to use Linux on vitrual machine: **_man/VirtualBox_Instructions.docx_**.
 
 To to install software read: **_man/software.md_**
