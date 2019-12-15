@@ -10,6 +10,16 @@ Installation instructions can be found in **man/root.md**.
 root
 ```
 
+This run an nterpreter for C and C++ code, which could be **cling** for current
+ROOT version or CINT for old ones. More details:
+ - https://root.cern.ch/cling
+ - https://root.cern.ch/cint
+
+ > An interpreter is a software that executes code line after line rather than 
+ > compiling it all at once. This has the advantage that you needn't wait for 
+ > the compiler and can see / check the result immediately. On the other hand, 
+ > interpreting code is much slower than executing compiled code. 
+
 To exit type: **.q** and **Enter**.
 
 Usefull options:
@@ -42,7 +52,7 @@ or run ROOT and use **.x** command in ROOT command line interface
 
 Working in ROOT command line or running macros one uses ROOT in so-called interpetator regime.
 To run it fast, one should compile his routines. First one have to make programm be valid C++,
-so add headers and namespaces. Modify *helloscript.C**:
+so add headers and namespaces. Modify **helloscript.C** as:
 ```c++
 #include <iostream>
 
@@ -51,15 +61,14 @@ using namespace std;
 void helloscript()
 {
   cout << "hello world!" << endl;
-}```
+}
+```
 
 
 To complile it before execution type in the ROOT shell:
 ```bash
 .x helloscript.C+
 ```
-
-https://en.wikibooks.org/wiki/ROOT/Getting_Started/Many_Ways_to_Use_ROOT :
 
  > Complation is done y a program called ACLiC (The Automatic Compiler of Libraries for CINT). 
  > ACLiC is a smart tool that makes use of your installed compiler and builds up and reuses 
@@ -84,3 +93,41 @@ g++ -o hello hello.cc `root-config --cflags --glibs`
 Important thing is to add **TApplication** class. Without it you won't be able to see canvas
 (though its printing into PNG-file will be done). The program then just stops 
 at **Run()** and one can end the process with ^C.
+
+
+Data types
+----------
+
+Standard data types depend on machine and compiler. There so-called
+**machine independent data types** in ROOT, which lways have the same definition.
+It is strongly recommended to use them when programming ROOT. 
+
+ - **Bool_t** 	logical value (false/true)
+ - **Char_t** 		signed integer value 	1 byte
+ - **UChar_t** 		unsigned integer value 	1 byte
+ - **Short_t** 		signed integer value 	2 bytes
+ - **UShort_t** 	unsigned integer value 	2 bytes
+ - **Int_t** 		signed integer value 	4 bytes
+ - **UInt_t** 		unsigned integer value 	4 bytes
+ - **Long_t** 		signed integer value 	8 byte
+ - **ULong_t** 		unsigned integer value 	8 byte
+ - **Float_t** 		floating point value 	4 bytes
+ - **Double_t** 	floating point value 	8 bytes 
+
+More tips
+---------
+
+To exit ROOT from macro use
+```c++
+#include "TSystem.h"
+...
+gSystem->Exit(0);
+...
+
+```
+
+Quotes ar from
+==============
+
+ - https://en.wikibooks.org/wiki/ROOT/Getting_Started/Many_Ways_to_Use_ROOT
+
