@@ -59,7 +59,7 @@ decltype(foo) bar2;  // bar2 has the same type as foo;
 Strings in C++
 --------------
 ```c++
-// my first string
+//Programm with string
 #include <iostream>
 #include <string>
 using namespace std;
@@ -73,3 +73,80 @@ int main ()
   cout << my_string << endl;
   return 0;
 }```
+
+String class reference: http://www.cplusplus.com/reference/string/string/
+
+Literals
+--------
+
+Literals are used to express particular values within the source code of a program.
+```c++
+// same nuber but in different numerics
+76         // decimal
+0114       // octal
+0x4c       // hexadecimal
+...
+// literals can ghave types
+75         // int
+75u        // unsigned int
+75l        // long
+75ul       // unsigned long 
+75lu       // unsigned long
+...
+// for floating point
+3.14159    // 3.14159
+6.02e23    // 6.02 x 10^23
+1.6e-19    // 1.6 x 10^-19
+3.0        // 3.0  
+3.14159L   // long double
+6.02e23f   // float  
+```
+
+Escape codes
+------------
+
+Special characters that are difficult or impossible to express otherwise 
+in the source code of a program:
+ - **\n**	newline
+ - **\r**	carriage return
+ - **\t**	tab
+ - **\v**	vertical tab
+ - **\b**	backspace
+ - **\f**	form feed (page feed)
+ - **\a**	alert (beep)
+ - **\'**	single quote (')
+ - **\"**	double quote (")
+ - **\?**	question mark (?)
+ - **\\**	backslash (\)
+
+Typed constant expressions
+---------------------------
+
+One can then use these names instead of the literals or use of preprocessor definitions.
+
+```c++
+#include <iostream>
+using namespace std;
+
+const double pi = 3.14159;
+const char newline = '\n';
+
+#define PI 3.14159
+#define NEWLINE '\n'
+
+// Any occurrence of PI in the code is interpreted 3.14159
+
+int main ()
+{
+  double r=5.0;               // radius
+  double circle;
+
+  circle = 2 * pi * r;
+  cout << circle;
+  cout << newline;
+
+  circle = 2 * PI * r;
+  cout << circle;
+  cout << NEWLINE;
+}
+```
