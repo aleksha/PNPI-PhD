@@ -72,7 +72,8 @@ int main ()
   my_string = "Same variable but different string content";
   cout << my_string << endl;
   return 0;
-}```
+}
+```
 
 String class reference: http://www.cplusplus.com/reference/string/string/
 
