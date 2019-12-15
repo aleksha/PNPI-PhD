@@ -37,7 +37,7 @@ Useful methods
 
 **Eval()** - Interpolate points in this graph at x using a **TSpline**. 
 
-**Chisquare( TF1* func)** - Return the chisquare of this graph with respect to function. 
+**Chisquare()** - Return the chisquare of this graph with respect to **TF1** function. 
 n case of a pure **TGraph** compute sum of squared differences. In case of a 
 **TGraphErrors** or **TGraphAsymmErrors** the errors are taken into account.
 
