@@ -123,7 +123,7 @@ in the source code of a program:
 Typed constant expressions
 ---------------------------
 
-One can then use these names instead of the literals or use of preprocessor definitions.
+One can use names instead of the literals or use of preprocessor definitions.
 
 ```c++
 #include <iostream>
@@ -149,5 +149,78 @@ int main ()
   circle = 2 * PI * r;
   cout << circle;
   cout << NEWLINE;
+}
+```
+
+Operators
+---------
+
+http://www.cplusplus.com/doc/tutorial/operators/
+
+Basic I/O
+----------
+
+he standard library defines a handful of stream objects that can be used to access 
+what are considered the standard sources and destinations of characters 
+by the environment where the program runs:
+ - **cin**	standard input stream
+ - **cout**	standard output stream
+ - **cerr**	standard error (output) stream
+ - **clog**	standard logging (output) stream
+
+```c++
+// i/o example
+
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+  int i;
+  cout << "Please enter an integer value: ";
+  cin >> i;
+  cout << "The value you entered is " << i;
+  cout << " and its double is " << i*2 << ".\n";
+  return 0;
+}
+```
+
+```c++
+// i/o example
+
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+  int i;
+  cout << "Please enter an integer value: ";
+  cin >> i;
+  cout << "The value you entered is " << i;
+  cout << " and its double is " << i*2 << ".\n";
+  return 0;
+}
+```
+
+Next works, but onsiders spaces (whitespaces, tabs, new-line...) 
+as terminating the value being extracted:
+```c++
+string mystring;
+cin >> mystring;
+```
+One can use **getline()**
+```c++
+// cin with strings
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main ()
+{
+  string mystr;
+  cout << "What's your name? ";
+  getline (cin, mystr);
+  cout << "Hello " << mystr << ".\n";
+  return 0;
 }
 ```
