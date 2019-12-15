@@ -214,3 +214,9 @@ Statements
 
  - In short: **statements.md**
  - See also: http://www.cplusplus.com/doc/tutorial/control/
+
+Functions
+---------
+
+ - In short: **functions.md**
+ - See also: http://www.cplusplus.com/doc/tutorial/functions/

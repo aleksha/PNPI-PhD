@@ -1,9 +1,10 @@
 Statements
 ==========
 
+ - http://www.cplusplus.com/doc/tutorial/control/
 
 Selection
-=========
+---------
 
 ```c++
 if (x > 0){
@@ -30,7 +31,7 @@ switch (x) {
 ```
 
 Loops
-=====
+-----
 
 ```c++
 while (expression) { statement } 
@@ -48,7 +49,7 @@ for (char c : str)
 ```
 
 Jumps
-=====
+-----
 
 **break** leaves a loop, even if the condition for its end is not fulfilled. 
 It can be used to end an infinite loop, or to force it to end before its natural end. 
