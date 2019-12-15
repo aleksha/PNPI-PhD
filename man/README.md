@@ -2,7 +2,7 @@ Documentation
 =============
 
  - **pnpi-phd.md** :  some instruction for PNPI PhD students
- - **cloud.md ** : how to use cloud servers
+ - **cloud.md** : how to use cloud servers
  - **VirtualBox_Instructions.docx** : instruction to install Ubuntu as virtual computer.
  - **linux.md**
  - **software.md** : installation of GEANT-4

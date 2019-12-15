@@ -1,5 +1,19 @@
-Recepies for CERN ROOT
-======================
+Recepies and tips for CERN ROOT
+===============================
+
+Installation instructions can be found in **man/root.md**.
+
+```bash
+root
+```
+
+Usefull options:
+ * **-h**: Show possible options
+ * **-q**: exit after execution of macro
+ * **-b**: Run in batch mode without graphics
+ * **-l**: don't show splash screen
+
+Auto completion works with **Tab** key.
 
 How to compile standalone ROOT program
 --------------------------------------
