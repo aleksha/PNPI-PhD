@@ -1,6 +1,15 @@
 Examples with TGraph family and related stuff
 =============================================
 
+ThreeGraphs
+-----------
+
+ * **TGraph**, **TGraphErrors**, **TGraphAsymmErrors**
+ * Draw options ("A" -  draw axis)
+ * Fit with build-in 2nd order polynomial formula (see fit results in shell)
+ * **TCanvas** (vertical spleeting)
+
+
 XSlab.C
 -------
 
