@@ -1,5 +1,19 @@
-Content
-=======
+About
+=====
+
+ROOT is  C++ based free data analysis software and library developed at CERN.
+Documenration as well as sources can be found in: https://root.cern.ch/
+
+Important ROOT classes
+----------------------
+ * **Windows:** TBrowser, TCanvas, TPad
+ * **Histogramms:** TH1, TH2, TH3
+ * **Graphics:** TGraph, TGraphErrors, TGraphAsymmErrors
+ * **Functions:** TFormula, TF1, TF2, TF3
+ * **Fitting:** TFitResult, TMinuit
+ * **Physics:** TVector3, TRotation, TLorentzVector, TLorentzRotation
+ * **Data:** TTree, TBranch, TChain, TSelector
+
 
 Recepies and tips for CERN ROOT
 ===============================
@@ -103,21 +117,21 @@ Standard data types depend on machine and compiler. There so-called
 It is strongly recommended to use them when programming ROOT. 
 
  - **Bool_t** 	logical value (false/true)
- - **Char_t** 		signed integer value 	1 byte
- - **UChar_t** 		unsigned integer value 	1 byte
- - **Short_t** 		signed integer value 	2 bytes
- - **UShort_t** 	unsigned integer value 	2 bytes
- - **Int_t** 		signed integer value 	4 bytes
- - **UInt_t** 		unsigned integer value 	4 bytes
- - **Long_t** 		signed integer value 	8 byte
- - **ULong_t** 		unsigned integer value 	8 byte
- - **Float_t** 		floating point value 	4 bytes
- - **Double_t** 	floating point value 	8 bytes 
+ - **Char_t** 		signed integer value 	/ 1 byte
+ - **UChar_t** 		unsigned integer value 	/ 1 byte
+ - **Short_t** 		signed integer value 	/ 2 bytes
+ - **UShort_t** 	unsigned integer value 	/ 2 bytes
+ - **Int_t** 		signed integer value 	/ 4 bytes
+ - **UInt_t** 		unsigned integer value 	/ 4 bytes
+ - **Long_t** 		signed integer value 	/ 8 byte
+ - **ULong_t** 		unsigned integer value 	/ 8 byte
+ - **Float_t** 		floating point value 	/ 4 bytes
+ - **Double_t** 	floating point value 	/ 8 bytes 
 
 More tips
 ---------
 
-To exit ROOT from macro use
+To exit ROOT from macro:
 ```c++
 #include "TSystem.h"
 ...
@@ -126,8 +140,8 @@ gSystem->Exit(0);
 
 ```
 
-Quotes ar from
-==============
+Quotes are from
+===============
 
  - https://en.wikibooks.org/wiki/ROOT/Getting_Started/Many_Ways_to_Use_ROOT
 
