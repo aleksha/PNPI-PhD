@@ -31,7 +31,45 @@ int main ()
 // regardless of where the function is actually located within the code.
 {
   cout << "Hello World! ";
-  cout << "I'm a C++ program";
+  cout << "I'm a C++ program" << endl;
 }
 ```
+To run the program
+```bash
+./example_program
+```
 
+Important
+---------
+
+ - The C++ language is a "case sensitive" language!
+
+ - C++ uses a number of keywords to identify operations and data descriptions; therefore, 
+   dentifiers created by a programmer cannot match these keywords
+   (http://www.cplusplus.com/doc/tutorial/variables/). 
+
+
+```c++
+int foo = 0;
+auto bar = foo;  // the same as: int bar = foo; 
+...
+decltype(foo) bar2;  // bar2 has the same type as foo; 
+```
+
+Strings in C++
+--------------
+```c++
+// my first string
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main ()
+{
+  string my_string;
+  mystring = "This is the initial string content";
+  cout << my_string << endl;
+  my_string = "Same variable but different string content";
+  cout << my_string << endl;
+  return 0;
+}```
