@@ -212,4 +212,5 @@ http://www.cplusplus.com/doc/tutorial/operators/
 Statements
 ----------
 
-http://www.cplusplus.com/doc/tutorial/control/
+ - In short: **statements.md**
+ - See also: http://www.cplusplus.com/doc/tutorial/control/
