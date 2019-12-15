@@ -152,11 +152,6 @@ int main ()
 }
 ```
 
-Operators
----------
-
-http://www.cplusplus.com/doc/tutorial/operators/
-
 Basic I/O
 ----------
 
@@ -167,23 +162,6 @@ by the environment where the program runs:
  - **cout**	standard output stream
  - **cerr**	standard error (output) stream
  - **clog**	standard logging (output) stream
-
-```c++
-// i/o example
-
-#include <iostream>
-using namespace std;
-
-int main ()
-{
-  int i;
-  cout << "Please enter an integer value: ";
-  cin >> i;
-  cout << "The value you entered is " << i;
-  cout << " and its double is " << i*2 << ".\n";
-  return 0;
-}
-```
 
 ```c++
 // i/o example
@@ -224,3 +202,14 @@ int main ()
   return 0;
 }
 ```
+
+Operators
+---------
+
+http://www.cplusplus.com/doc/tutorial/operators/
+
+
+Statements
+----------
+
+http://www.cplusplus.com/doc/tutorial/control/
