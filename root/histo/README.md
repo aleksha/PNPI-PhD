@@ -17,3 +17,4 @@ HistoFitting
  * Different Minimizer (Minuit, Fumili)
  * **SetOptStat()**, **>SetOptFit()**
  * **TString** usage for strings
+ * **TRandom3** generator with custom seed

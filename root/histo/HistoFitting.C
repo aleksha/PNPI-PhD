@@ -24,7 +24,7 @@ void HistoFitting(int N=1000){
    TH1F * h3f = new TH1F("h3f","Fumili2 (chi2 + minos + integral)",100, -5, 5. );
    TH1F * h4f = new TH1F("h4f","Fumili2 (likelihood + minos)",100, -5, 5. );
 
-// TRandom3
+// TRandom3 is one of generator classes (see table in web)
    TRandom3 * r3 = new TRandom3();
    r3->SetSeed(34956);
 
