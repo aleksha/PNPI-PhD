@@ -42,6 +42,22 @@ sudo make
        
 
  4. GEANT4 installation
+ 
+  4.0 Update cmake to newest version
+  
+```bash
+sudo apt purge cmake
+```  
+Then go to https://cmake.org/download/  and download the latest version you need.
+
+```bash
+tar -xvf cmake-3.11.0-Linux-x86_64.tar.gz
+sudo cp -r bin /usr/
+sudo cp -r share /usr/
+sudo cp -r doc /usr/share/
+sudo cp -r man /usr/share/
+```  
+
 
   4.1 Download GEANT4 to local machine http://geant4.web.cern.ch/geant4/support/download.shtml
  
