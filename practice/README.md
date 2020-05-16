@@ -9,7 +9,7 @@ Practice is organized as a bunch o sessions followed by homeworks. At the end of
 * **Python programming language**. Here are some documentation, tutorials as well as a couple of courses (in Russian):
   - Python documantation and tutorals https://docs.python.org/3/ ; 
   - More tutorials https://pythonprogramming.net/ ;
-  - Прикладной Python, Технопарк, осень 2018: https://www.youtube.com/watch?v=oLN3-1UX0-A&list=PLrCZzMib1e9qM62lMXC90SiFy7-1-kAPJ&index=1 ;
+  - Прикладной Python, Технопарк, осень 2018: htthttps://www.youtube.com/watch?v=oLN3-1UX0-A&list=PLrCZzMib1e9qM62lMXC90SiFy7-1-kAPJ&index=1ps://www.youtube.com/watch?v=oLN3-1UX0-A&list=PLrCZzMib1e9qM62lMXC90SiFy7-1-kAPJ&index=1 ;
   - Алгоритмы на Python 3 https://www.youtube.com/watch?v=KdZ4HF1SrFs ;
   - Практика программирования на Python 3 https://www.youtube.com/watch?v=fgf57Sa5A-A .
 

@@ -1,17 +1,71 @@
 # Setup session
 
+Here we'll meet a key components, which will be needed for the practice.
+
 ## Git
 
+A component of software configuration management, _version control_, also known as _revision control_ or _source control_, is the management of changes to documents, computer programs, large web sites, and other collections of information. 
+
+A _distributed version control_ (also known as _distributed revision control_) is a form of version control in which the complete codebase, including its full history, is mirrored on every developer's computer. Nowdays, [Git](https://en.wikipedia.org/wiki/Git) is _de-facto_ a standatd everyone uses.
+
+### Quick start
+
+Here we follow [this explanation](https://youtu.be/oLN3-1UX0-A).
+
+Main commands:
+  * **git clone URL** - clone a repository (with history and branches);
+  * **git init** - create a new empty repository;
+  * **git status** - show current status: branch, changes made and added files;
+  * **git diff** - changes, which you made for the files at staging.
+  * **git add** - add file to staging, they will be used in a foreseen commit;
+  * **git commit** - commit changes to repository;
+  * **git log** - history of commits
+  * **git show COMIMT_HASH** - shows a commit you want to see (main information and changes made);
+
+Typical workflow with the repository you have:
+  1. Make chnges in a code (for example in _file.py_).
+  2. **git add file.py**
+  3. **git commit -m "We did that and that"**
+
+The main code 'line' is calles _master_. It contains a code of the project. Anothe branches of the code are also posiible.
+
+Branches are quite a powerfull concept:
+  * **git branch BRANCH_NAME** - to create a new branch, for example, to develope a new feature.
+  * Change files and commit changes. They will be done in our new branch.
+  * **git checkout master** - switch to master. For example, if you find a bug in the previous code base and want to fix it.
+  * Change files and commit changes. They will be done in master.
+  * **git branch BRANCH_NAME** - switch back to the branch.
+  * **git merge master** - bring changes we made in master into the branch.
+  * Change files and commit changes. They will be done in our new branch.
+  * **git checkout master** - switch to master agiain.
+  * **git merge master** - bring changes we made in the branch into the master.
+  * **git br -d BRANCH_NAME** - remove the branch as the feature we finished to develope is already in the master.
+
+Undo changes:
+  * **git reset --hard HEAD** - undo all local changes. Note, here _HEAD_ is not a variable you need to subsititute (type this command as is)!
+  * **git checkout myfile.py** - undo changes in one file.
+
+### Remote code storage
+There are several providers, which allow to store a code remotely. Here are some examples:
+  * [GitHub](https://github.com/)
+  * [GitLab](https://about.gitlab.com/)
+  * [BitBucket](https://bitbucket.org/)
+
+You need to have an account for these sites, if you'd like to use them (create change repository).
+ * **git push origin master** - will put your updated master (with all the commits you've made) into this remote storage.
+
+It's better to have a README file in the each folder of the repository or at least in the root-folder of the project. This file will be automatically shown in your web-browser. Now, let's turn to a formatting for these files.
+
 ## Markdown
-To prepare documentation for repositories it's preferable to use [Markdown](https://daringfireball.net/projects/markdown/). As author said, “Markdown” is two things:
+It's preferable to use [Markdown](https://daringfireball.net/projects/markdown/) to prepare documentation for repositories . As authors say, “Markdown” is two things:
   1. A plain text formatting syntax;
   2. A software tool, written in Perl, that converts the plain text formatting to HTML.
 We will use the first, as the second is already implemented all over the web. 
 
-Lets follow github guide to see how easy Markdown formating is:
+Let's follow github guide to see how easy Markdown formating is:
   * https://guides.github.com/features/mastering-markdown/
 
-## Basica of statistics
+## Basics of statistics
 Here we will discuss:
   * Measurements and uncertainties;
   * Probability distribution functions and their basic pproperties;
