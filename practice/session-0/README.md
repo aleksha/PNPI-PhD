@@ -103,6 +103,14 @@ In our practice we use a three ([matryoshka](https://en.wikipedia.org/wiki/Matry
 
 ## LaTeX
 
+**LaTeX** -  is a document preparation system. When writing, the writer uses plain text. The writer uses markup tagging conventions to define the general structure of a document (such as article, book, and letter), to stylise text throughout a document (such as bold and italics), and to add citations and cross-references.
+
+There are several TeX-distributions, which can be used on stand-alone computes. Popular are:
+  * [TeX Live](https://www.tug.org/texlive/)
+  * [MikTeX](https://miktex.org/)
+
+One can use web solution to create and edit LaTeX projects. [Overleaf](https://www.overleaf.com/) is a recommended one.
+
 ## Homework
 
 ### Task
