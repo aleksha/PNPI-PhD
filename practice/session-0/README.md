@@ -11,9 +11,15 @@ We will use the first, as the second is already implemented all over the web.
 Lets follow github guide to see how easy Markdown formating is:
   * https://guides.github.com/features/mastering-markdown/
 
-## LaTeX
+## Basica of statistics
+Here we will discuss:
+  * Measurements and uncertainties;
+  * Probability distribution functions and their basic pproperties;
+  * Three special distributions:
+    - Binomial
+    - Poisson
+    - Gaussian
 
-## Probability distribution functions
 Let's follow an introduction lecture by [Prof. Mark Thompson](https://www.hep.phy.cam.ac.uk/~thomson/lectures/lectures.html):
   * https://www.hep.phy.cam.ac.uk/~thomson/lectures/statistics/Introduction_Handout.pdf
 
@@ -28,8 +34,20 @@ help(stat) # press q to exit back into command line
 
 More functionality is provided by special module entering [scipy](https://docs.scipy.org/doc/scipy/reference/) open-source software for mathematics, science, and engineering. Here is a tutorial on **scipy.stats**:
   * https://docs.scipy.org/doc/scipy/reference/tutorial/stats.html
-  
+
 ## ROOT, RooFit and Ostap
+
+In our practice we use a three ([matryoshka](https://en.wikipedia.org/wiki/Matryoshka_doll) way packed) frameworks:
+  * [ROOT](https://root.cern.ch/) - a modular scientific software toolkit. It provides all the functionalities needed to deal with big data processing, statistical analysis, visualisation and storage. It is mainly written in **C++** but integrated with other languages such as **Python** and **R**.
+  * [RooFit](https://root.cern.ch/roofit-20-minutes) - is a package that allows for modeling probability distributions in a compact and abstract way. It is distributed with **ROOT**.
+  * [Ostap](https://github.com/OstapHEP/ostap) - is a community-driven initiative aiming to provide more user friendly and more intuitive interface to **ROOT** and extending the existing functionality. It provides (as authors insist):
+    - very easy manipulations with **ROOT** and **RooFit** objects: histograms, trees, datasets, _etc_;
+    - very easy interface to **RooFit** machinery;
+    - extended set of model (probability density functions) for **RooFit**;
+    - powerful, pickle-based persistency for object;
+    - interactive **ostap** analysis environment (which will be a default one for the practice).
+
+## LaTeX
 
 ## Homework
 
