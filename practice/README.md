@@ -15,11 +15,11 @@ Practice is organized as a bunch o sessions followed by homeworks. At the end of
 
 ## Practice synopsis
   * **Setup session:** Introdution to:
-    * **Git**
-    * **Markdown**
-    * **LaTeX**
-    * **Ostap**
-    * **Probability distribution functions**
+    * **Git** - a distributed version control system to store the code.
+    * **Markdown** - a plain text formatting syntax.
+    * **Introdution to statistics** - some basics we need to start coding.
+    * **ROOT / RooFit / Ostap** - meet the system we'll use.
+    * **LaTeX** - to prepare nice scientific reports.
   * **Session 1:** On how to extract a signal.
     * Fitting a signal:
       - Chi-square and maximum likelyhood fits.
