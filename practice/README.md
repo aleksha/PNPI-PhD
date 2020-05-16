@@ -1,12 +1,12 @@
 # Practice course
 
-This part of repository contains documentation and code, which are needed for a practice in a Laboratory of baryonic physics of Hhigh energy physics department of PNPI.
+This part of repository contains documentation and code, which are needed for a practice in a Laboratory of baryonic physics of High energy physics department of PNPI.
 
-Practice is organized as a bunch o sessions followed by a homeworks. At the end of practice student reports are expected.
+Practice is organized as a bunch o sessions followed by homeworks. At the end of the practice student reports are expected.
 
 ## Precursors
 * **PNPI PhD course of statistics and data analysis** mainly to have a proper vocabular.
-* **Python** programming language. Here are some documentation and courses in Russian:
+* **Python programming language**. Here are some documentation, tutorials as well as a couple of courses (in Russian):
   - Python documantation and tutorals https://docs.python.org/3/ ; 
   - More tutorials https://pythonprogramming.net/ ;
   - Прикладной Python, Технопарк, осень 2018: https://www.youtube.com/watch?v=oLN3-1UX0-A&list=PLrCZzMib1e9qM62lMXC90SiFy7-1-kAPJ&index=1 ;
