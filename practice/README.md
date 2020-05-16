@@ -18,6 +18,7 @@ Practice is organized as a bunch o sessions followed by homeworks. At the end of
     * **Git**
     * **Markdown**
     * **LaTeX**
+    * **Ostap**
     * **Probability distribution functions**
   * **Session 1:** On how to extract a signal.
     * Fitting a signal:

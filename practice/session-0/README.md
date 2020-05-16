@@ -14,6 +14,8 @@ Lets follow github guide to see how easy Markdown formating is:
 ## LaTeX
 
 ## Probability distribution functions
+Let's follow an introductio lecture by [Prof. Mark Thompson](https://www.hep.phy.cam.ac.uk/~thomson/lectures/lectures.html):
+  * https://www.hep.phy.cam.ac.uk/~thomson/lectures/statistics/Introduction_Handout.pdf
 
 ## Ostap
 
