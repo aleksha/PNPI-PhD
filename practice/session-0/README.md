@@ -14,10 +14,22 @@ Lets follow github guide to see how easy Markdown formating is:
 ## LaTeX
 
 ## Probability distribution functions
-Let's follow an introductio lecture by [Prof. Mark Thompson](https://www.hep.phy.cam.ac.uk/~thomson/lectures/lectures.html):
+Let's follow an introduction lecture by [Prof. Mark Thompson](https://www.hep.phy.cam.ac.uk/~thomson/lectures/lectures.html):
   * https://www.hep.phy.cam.ac.uk/~thomson/lectures/statistics/Introduction_Handout.pdf
 
-## Ostap
+## Python3
+
+In python3 a basic statistics is impemented into a standard library as a special module, which  provides functions for calculating statistics of data, including averages, variance, and standard deviation.
+
+```python
+import statistics as stat
+help(stat) # press q to exit back into command line
+```
+
+More functionality is provided by special module entering [scipy](https://docs.scipy.org/doc/scipy/reference/) open-source software for mathematics, science, and engineering. Here is a tutorial on **scipy.stats**:
+  * https://docs.scipy.org/doc/scipy/reference/tutorial/stats.html
+  
+## ROOT, RooFit and Ostap
 
 ## Homework
 
