@@ -43,9 +43,17 @@ Practice is organized as a bunch o sessions followed by homeworks. At the end of
       - Fluctuations
       - Look elswhere effect
       - When to use signal for background rejection optimisations?
-  * **Session 3:** Classification methods
-  * **Session 4:** Boosting Decision Trees
-  * **Session 5:** Neural Networks
+  * **Session 3:** Simple classification methods
+    * Support vector machine
+    * k-nearest
+  * **Session 4:** Multivariate analysis with ROOT.TMVA package 
+    * Boosting Decision Trees
+    * Neural Networks.
+  * **Session 5:** Dealing with Monte-Carlo
+    * How to re-weight MC to data?
+    * Weighted fit for efficiency evaluation.
+    * How to estimate efficiency for not-well reconstructed events?
+  
 
 ## Software stack
  * **Ubuntu 18.04 LTS**, as operation system (possible _via_ VirtualBox).
