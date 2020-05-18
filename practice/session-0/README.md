@@ -73,9 +73,12 @@ Here we will discuss:
     - Binomial
     - Poisson
     - Gaussian
+  * Central limit theorem.
+  * Uncertainty propagation.
 
 Let's follow an introduction lecture by [Prof. Mark Thompson](https://www.hep.phy.cam.ac.uk/~thomson/lectures/lectures.html):
   * https://www.hep.phy.cam.ac.uk/~thomson/lectures/statistics/Introduction_Handout.pdf
+  * https://www.hep.phy.cam.ac.uk/~thomson/lectures/statistics/GaussianStatistics_Handout.pdf
 
 ## Python3
 

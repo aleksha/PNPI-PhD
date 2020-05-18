@@ -18,6 +18,14 @@ Practice is organized as a bunch o sessions followed by homeworks. At the end of
     * **Git** - a distributed version control system to store the code.
     * **Markdown** - a plain text formatting syntax.
     * **Introdution to statistics** - some basics we need to start coding.
+      - Measurements and uncertainties;
+      - Probability distribution functions and their basic pproperties;
+      - Three special distributions:
+        - Binomial
+        - Poisson
+        - Gaussian
+      - Central limit theorem.
+      - Uncertainty propagation.
     * **ROOT / RooFit / Ostap** - meet the system we'll use.
     * **LaTeX** - to prepare nice scientific reports.
   * **Session 1:** On how to extract a signal.
